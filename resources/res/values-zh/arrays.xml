@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="base_metabolic">
+        <item>不达标</item>
+        <item>达标</item>
+    </array>
+    <array name="details_body">
+        <item>体重</item>
+        <item>BMI</item>
+        <item>体脂率</item>
+        <item>体型</item>
+        <item>去脂体重</item>
+        <item>皮下脂肪率</item>
+        <item>内脏脂肪</item>
+        <item>体水分率</item>
+        <item>骨骼肌率</item>
+        <item>肌肉量</item>
+        <item>骨量</item>
+        <item>蛋白质率</item>
+        <item>基础代谢率</item>
+        <item>身体年龄</item>
+        <item>身体评分</item>
+    </array>
+    <array name="details_body_description">
+        <item>反应和衡量一个人健康状况的重要标志之一。</item>
+        <item>身体质量指数</item>
+        <item>身体成分中，脂肪组织所占的比率。</item>
+        <item>对人体形状的总体描述和评定</item>
+        <item>除脂肪以外身体其他成分的重量，肌肉是其中的主要部分</item>
+        <item>是贮存于皮下的脂肪组织。</item>
+        <item>人体脂肪中的一种，与皮下脂肪不同，它围绕着人的脏器，主要存在于腹腔内。</item>
+        <item>人体体内所包含的水份，包括血液、淋巴液、细胞外液等。</item>
+        <item>人体有多个肌肉组成。</item>
+        <item>全身肌肉的重量，包括骨骼肌、心肌、平滑肌。</item>
+        <item>单位体积内，骨组织[骨矿物质（钙、磷等）和骨基质（骨胶原、蛋白质、无机盐等等）]含量。</item>
+        <item>生命的物质基础，是构成细胞的基本有机物。</item>
+        <item>人体在非活动状态下，维持生命所需必须消耗的能量。</item>
+        <item>体年龄是评估身体状态的指标。</item>
+        <item>综合体重、体脂率、肌肉量、体水份、骨量、内脏脂肪、蛋白质率、基础代谢量这8项给于的身体综合评分。</item>
+    </array>
+    <array name="fat_rate_status">
+        <item>偏低</item>
+        <item>健康</item>
+        <item>警戒</item>
+        <item>轻度肥胖</item>
+        <item>重度肥胖</item>
+    </array>
+    <array name="fat_status">
+        <item>偏低</item>
+        <item>标准</item>
+        <item>偏高</item>
+        <item>较高</item>
+    </array>
+    <array name="find">
+        <item>推文</item>
+        <item>消息</item>
+    </array>
+    <array name="have_red_status">
+        <item>偏低</item>
+        <item>标准</item>
+        <item>偏高</item>
+    </array>
+    <array name="home_weight_describe">
+        <item>偏瘦</item>
+        <item>标准</item>
+        <item>偏胖</item>
+        <item>肥胖</item>
+    </array>
+    <array name="language">
+        <item>简体中文</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>italiano</item>
+        <item>français</item>
+        <item>Deutsche</item>
+        <item>日本語</item>
+        <item>跟随系统</item>
+    </array>
+    <array name="no_red_status">
+        <item>偏低</item>
+        <item>标准</item>
+        <item>充足</item>
+    </array>
+    <array name="obesity_level">
+        <item>保持</item>
+        <item>肥胖I级</item>
+        <item>肥胖II级</item>
+        <item>肥胖III级</item>
+    </array>
+    <array name="score_status">
+        <item>偏低</item>
+        <item>优秀</item>
+    </array>
+    <array name="shape">
+        <item>偏瘦型</item>
+        <item>偏瘦肌肉型</item>
+        <item>标准型</item>
+        <item>隐性肥胖型</item>
+        <item>偏胖型</item>
+    </array>
+    <array name="target_weight">
+        <item>偏低</item>
+        <item>标准</item>
+        <item>偏高</item>
+    </array>
+    <array name="trend_description">
+        <item>反应和衡量一个人健康状况的重要标志之一。</item>
+        <item>身体质量指数</item>
+        <item>身体成分中，脂肪组织所占的比率。</item>
+        <item>是贮存于皮下的脂肪组织。</item>
+        <item>人体脂肪中的一种，与皮下脂肪不同，它围绕着人的脏器，主要存在于腹腔内。</item>
+        <item>人体体内所包含的水份，包括血液、淋巴液、细胞外液等。</item>
+        <item>人体有多个肌肉组成。</item>
+        <item>全身肌肉的重量，包括骨骼肌、心肌、平滑肌。</item>
+        <item>单位体积内，骨组织[骨矿物质（钙、磷等）和骨基质（骨胶原、蛋白质、无机盐等等）]含量。</item>
+        <item>生命的物质基础，是构成细胞的基本有机物。</item>
+        <item>人体在非活动状态下，维持生命所需必须消耗的能量。</item>
+        <item>综合体重、体脂率、肌肉量、体水份、骨量、内脏脂肪、蛋白质率、基础代谢量这8项给于的身体综合评分。</item>
+    </array>
+    <array name="trend_name">
+        <item>体重</item>
+        <item>BMI</item>
+        <item>体脂率</item>
+        <item>皮下脂肪率</item>
+        <item>内脏脂肪</item>
+        <item>体水分率</item>
+        <item>骨骼肌率</item>
+        <item>肌肉量</item>
+        <item>骨量</item>
+        <item>蛋白质率</item>
+        <item>基础代谢率</item>
+        <item>身体评分</item>
+    </array>
+    <array name="visceral_fat">
+        <item>标准</item>
+        <item>警戒</item>
+        <item>偏高</item>
+        <item>较高</item>
+    </array>
+    <array name="weight_status">
+        <item>较低</item>
+        <item>偏低</item>
+        <item>标准</item>
+        <item>偏高</item>
+        <item>较高</item>
+    </array>
+</resources>

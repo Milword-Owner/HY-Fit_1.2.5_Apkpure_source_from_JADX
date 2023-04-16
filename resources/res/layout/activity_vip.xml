@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#f4f4f4" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huayu.tzc.customview.MyHeaderView android:layout_width="match_parent" android:layout_height="wrap_content" app:header_title="@string/viptext"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <p036de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@+id/vipImg" android:layout_width="75dp" android:layout_height="75dp" android:layout_marginTop="66dp"/>
+            <TextView android:textSize="15sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@+id/vipName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="sweet"/>
+            <LinearLayout android:gravity="bottom" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <ImageView android:id="@+id/vipPic" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/ic_vip_f"/>
+                <TextView android:textSize="10sp" android:textColor="#ffb0afaf" android:gravity="bottom" android:id="@+id/vipLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/pt_vip" android:includeFontPadding="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/vipNumLayout" android:background="@color/colorWhite" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="36dp">
+                <EditText android:textSize="14sp" android:ellipsize="end" android:id="@+id/vipNumber" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/enter_no" android:maxLines="1" android:layout_weight="1" android:inputType="text"/>
+                <Button android:textSize="12sp" android:textColor="#ffffffff" android:id="@+id/vipBt" android:background="@drawable/radius_10_blue" android:layout_width="55dp" android:layout_height="25dp" android:text="@string/feedback_send"/>
+                <TextView android:textSize="12sp" android:textColor="#ff3a84ff" android:id="@+id/vipUpdate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modify"/>
+            </LinearLayout>
+            <TextView android:textSize="13sp" android:textColor="#ff999999" android:id="@+id/vipTip" android:paddingLeft="11dp" android:paddingRight="11dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/vip_tip"/>
+            <TextView android:textSize="13sp" android:textColor="#ff333333" android:gravity="center" android:id="@+id/vipSuccess" android:paddingLeft="11dp" android:paddingRight="11dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/vip_success"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

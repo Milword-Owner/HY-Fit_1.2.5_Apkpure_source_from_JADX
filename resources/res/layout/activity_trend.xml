@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/colorWhite" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.huayu.tzc.customview.MyHeaderView android:id="@+id/trend_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/trend_tab" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="40dp" app:tabGravity="2" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="0dp" app:tabMaxWidth="0dp" app:tabMode="0" app:tabSelectedTextColor="@color/colorWhite" app:tabTextColor="#000000"/>
+        <View android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="16dp" android:layout_marginRight="12dp">
+            <TextView android:textSize="12sp" android:textColor="#ff000000" android:id="@+id/trend_week" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Week" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="#ff000000" android:id="@+id/trend_month" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Month" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="#ff000000" android:id="@+id/trend_year" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Year" android:layout_weight="1"/>
+            <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <ImageView android:layout_gravity="right" android:id="@+id/trend_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_time"/>
+        </LinearLayout>
+        <com.huayu.tzc.customview.MyViewPager android:id="@+id/trend_viewpager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

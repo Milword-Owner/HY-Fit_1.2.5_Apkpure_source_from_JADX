@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:background="#3a84ff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/measure_back" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="12dp" android:layout_marginTop="44dp" android:src="@drawable/ic_b"/>
+    <ImageView android:id="@+id/measure_gif" android:layout_width="match_parent" android:layout_height="300dp" android:layout_marginLeft="50dp" android:layout_marginTop="100dp" android:layout_marginRight="50dp" android:src="@drawable/gif" android:layout_below="@+id/measure_back" android:layout_centerInParent="true"/>
+    <TextView android:textSize="16sp" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/measure_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="230dp" android:text="@string/measuring" android:layout_below="@+id/measure_back" android:layout_centerInParent="true"/>
+</RelativeLayout>

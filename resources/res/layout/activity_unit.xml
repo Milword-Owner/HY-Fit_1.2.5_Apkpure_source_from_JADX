@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huayu.tzc.customview.MyHeaderView android:id="@+id/unitHeader" android:layout_width="match_parent" android:layout_height="wrap_content" app:header_title="@string/set_unit_set"/>
+    <TextView android:textSize="12sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="20dp" android:text="@string/unit_length"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/unitCmLayout" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+        <com.huayu.tzc.customview.MyImageView android:id="@+id/unitCm" android:layout_width="wrap_content" android:layout_height="wrap_content" app:img_false="@drawable/ic_select_false" app:img_selected="true" app:img_true="@drawable/ic_select_true"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/unit_cm"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/unitFtLayout" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+        <com.huayu.tzc.customview.MyImageView android:id="@+id/unitFt" android:layout_width="wrap_content" android:layout_height="wrap_content" app:img_false="@drawable/ic_select_false" app:img_selected="false" app:img_true="@drawable/ic_select_true"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/unit_mile"/>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="20dp" android:text="@string/unit_weight"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/unitKgLayout" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+        <com.huayu.tzc.customview.MyImageView android:id="@+id/unitKg" android:layout_width="wrap_content" android:layout_height="wrap_content" app:img_false="@drawable/ic_select_false" app:img_selected="true" app:img_true="@drawable/ic_select_true"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/unit_kg_1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/unitLbLayout" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+        <com.huayu.tzc.customview.MyImageView android:id="@+id/unitLb" android:layout_width="wrap_content" android:layout_height="wrap_content" app:img_false="@drawable/ic_select_false" app:img_selected="false" app:img_true="@drawable/ic_select_true"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/unit_kg_2"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/unitStLayout" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+        <com.huayu.tzc.customview.MyImageView android:id="@+id/unitSt" android:layout_width="wrap_content" android:layout_height="wrap_content" app:img_false="@drawable/ic_select_false" app:img_selected="false" app:img_true="@drawable/ic_select_true"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/unit_kg_3"/>
+    </LinearLayout>
+    <Button android:textSize="20sp" android:textColor="#ffffffff" android:id="@+id/unitBt" android:background="@drawable/radius_6_blue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="50dp" android:layout_marginRight="30dp" android:text="@string/common_confirm"/>
+</LinearLayout>

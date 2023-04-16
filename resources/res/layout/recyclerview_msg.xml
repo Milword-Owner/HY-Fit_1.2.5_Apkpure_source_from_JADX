@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/msg_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="100dp">
+        <p036de.hdodenhof.circleimageview.CircleImageView android:id="@+id/msg_kf" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_service"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:id="@+id/msg_service" android:background="@drawable/radius_6" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/msg_kf" android:textIsSelectable="true"/>
+        <ImageView android:id="@+id/msg_kf_img" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="200dp" android:layout_marginLeft="8dp" android:scaleType="fitStart" android:layout_toRightOf="@+id/msg_kf"/>
+    </RelativeLayout>
+    <TextView android:textSize="10sp" android:textColor="#ff999999" android:gravity="center" android:layout_gravity="center" android:id="@+id/msg_date" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/msg_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp">
+        <p036de.hdodenhof.circleimageview.CircleImageView android:id="@+id/msg_header" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/colorWhite" android:id="@+id/msg_user" android:background="@drawable/radius_6_blue" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/msg_header" android:textIsSelectable="true"/>
+        <ImageView android:id="@+id/msg_img" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="200dp" android:layout_marginRight="8dp" android:scaleType="fitStart" android:layout_toLeftOf="@+id/msg_header"/>
+    </RelativeLayout>
+</LinearLayout>

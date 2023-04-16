@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="#ffffffff"/>
+    <item android:name="android:shadowDx">0
+    </item>
+    <item android:name="android:shadowDy">3
+    </item>
+    <item android:name="android:shadowColor">#80000000
+    </item>
+</shape>

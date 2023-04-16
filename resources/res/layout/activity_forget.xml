@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/colorWhite" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="16dp" android:layout_marginRight="30dp">
+            <ImageView android:id="@+id/forgetBack" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/ic_left"/>
+            <TextView android:textSize="20sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_forget_password" android:layout_marginStart="15dp"/>
+        </LinearLayout>
+        <TextView android:textSize="40sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="50dp" android:layout_marginRight="30dp" android:text="@string/welcome"/>
+        <TextView android:textSize="15sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:layout_marginRight="30dp" android:text="@string/register_new_password"/>
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/edit_background" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp">
+            <com.huayu.tzc.customview.MyEditTextView android:textSize="15sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@+id/forgetNewEdit" android:background="@color/colorWhite" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/newpass_hint" android:layout_weight="1" android:inputType="textPassword"/>
+            <com.huayu.tzc.customview.MyImageView android:id="@+id/forgetNewShow" android:layout_width="18dp" android:layout_height="18dp" app:img_false="@drawable/ic_close_eye" app:img_true="@drawable/ic_eye"/>
+        </LinearLayout>
+        <TextView android:textSize="15sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:layout_marginRight="30dp" android:text="@string/newpass_confirm"/>
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/edit_background" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp">
+            <com.huayu.tzc.customview.MyEditTextView android:textSize="15sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@+id/forgetConfirmEdit" android:background="@color/colorWhite" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/newpass_confirm_hint" android:layout_weight="1" android:inputType="textPassword"/>
+            <com.huayu.tzc.customview.MyImageView android:id="@+id/forgetConfirmShow" android:layout_width="18dp" android:layout_height="18dp" app:img_false="@drawable/ic_close_eye" app:img_true="@drawable/ic_eye"/>
+        </LinearLayout>
+        <Button android:textSize="20sp" android:textColor="@color/colorWhite" android:id="@+id/forgetBt" android:background="@drawable/radius_22" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginLeft="30dp" android:layout_marginTop="35dp" android:layout_marginRight="30dp" android:text="@string/common_confirm"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

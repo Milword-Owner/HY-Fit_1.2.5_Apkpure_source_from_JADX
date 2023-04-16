@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#f4f4f4" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="#ff000000" android:gravity="center" android:background="@color/color_white" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/support"/>
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@+id/msg_smart" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.scwang.smart.refresh.footer.ClassicsFooter android:layout_width="match_parent" android:layout_height="wrap_content" app:srlAccentColor="@color/colorBlack" app:srlPrimaryColor="@color/colorWhite"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/msg_recyclerview" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="20dp"/>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ececec" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/msg_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pic"/>
+        <EditText android:textSize="13sp" android:id="@+id/msg_edit" android:background="@drawable/radius_15" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="30dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/colorWhite" android:gravity="center" android:id="@+id/msg_send" android:background="@drawable/radius_send" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="wrap_content" android:layout_height="30dp" android:text="@string/feedback_send"/>
+    </LinearLayout>
+</LinearLayout>

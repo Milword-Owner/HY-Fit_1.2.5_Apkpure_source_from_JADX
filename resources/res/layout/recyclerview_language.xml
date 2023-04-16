@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12dp" android:paddingTop="18dp" android:paddingRight="12dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="14sp" android:textColor="#ff000000" android:id="@+id/language_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+    <com.huayu.tzc.customview.MyImageView android:id="@+id/language_img" android:layout_width="wrap_content" android:layout_height="wrap_content" app:img_false="@color/color_white" app:img_true="@drawable/ic_select_true"/>
+</LinearLayout>

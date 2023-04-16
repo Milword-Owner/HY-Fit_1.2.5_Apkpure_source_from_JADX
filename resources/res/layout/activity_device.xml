@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huayu.tzc.customview.MyHeaderView android:id="@+id/deviceTip" android:layout_width="match_parent" android:layout_height="wrap_content" app:header_title="@string/device_manager" app:menu_img="@drawable/ic_tip2" app:menu_img_visibility="true"/>
+    <View android:background="@color/f4" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <RelativeLayout android:gravity="center_vertical" android:background="@color/colorWhite" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="65dp">
+        <ImageView android:id="@+id/device_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tzc" android:layout_centerVertical="true"/>
+        <TextView android:textSize="15sp" android:textColor="@color/colorBlack" android:id="@+id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginTop="12dp" android:text="@string/device_title" android:layout_toRightOf="@+id/device_logo"/>
+        <TextView android:textSize="12sp" android:textColor="#999999" android:gravity="bottom" android:id="@+id/device_mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginBottom="12dp" android:text="@string/mac" android:layout_toRightOf="@+id/device_logo" android:layout_below="@+id/device_name" android:layout_alignParentBottom="true"/>
+        <ImageView android:id="@+id/device_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_connect" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="10sp" android:textColor="#ff999999" android:background="@color/f4" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/other_device"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/device_recyclerview" android:background="@color/color_white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp"/>
+</LinearLayout>

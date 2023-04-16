@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huayu.tzc.customview.MyHeaderView android:id="@+id/choiceHeader" android:layout_width="match_parent" android:layout_height="wrap_content" app:menu_text="@string/ok" app:menu_text_visibility="true"/>
+    <com.huayu.tzc.customview.calendar.CalendarList android:id="@+id/calendarList" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

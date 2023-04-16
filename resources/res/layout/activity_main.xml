@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.viewpager.widget.ViewPager android:id="@+id/mainViewPager" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.flyco.tablayout.CommonTabLayout android:id="@+id/mainTab" android:background="@drawable/tab" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="50dp" app:tl_iconHeight="25dp" app:tl_iconWidth="25dp" app:tl_indicator_height="0dp" app:tl_textSelectColor="#3a84ff" app:tl_textUnselectColor="#a9a9a9" app:tl_textsize="10sp"/>
+    </LinearLayout>
+</RelativeLayout>

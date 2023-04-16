@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/homeScrollview" android:background="@color/colorWhite" android:fitsSystemWindows="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="12dp" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <p036de.hdodenhof.circleimageview.CircleImageView android:id="@+id/homeHeader" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_man_b" android:layout_centerVertical="true"/>
+            <TextView android:textSize="18sp" android:textColor="@color/colorBlack" android:id="@+id/homeName" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/complete_nick" android:layout_weight="1" android:layout_toRightOf="@+id/homeHeader" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/homeBle" android:visibility="visible" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="10dp" android:src="@drawable/ic_ble_m"/>
+            <ImageView android:id="@+id/homeShare" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="10dp" android:src="@drawable/ic_share"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/homeTipLayout" android:background="@color/colorBlack8" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingHorizontal="12dp" android:paddingVertical="5dp">
+            <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/ic_tip_red"/>
+            <TextView android:textSize="12sp" android:textColor="#ff333333" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/ble_not" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="#fffb4e52" android:id="@+id/homeTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/homeMacLayout" android:background="@color/colorBlack8" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingHorizontal="12dp" android:paddingVertical="5dp">
+            <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/ic_tip_red"/>
+            <TextView android:textSize="12sp" android:textColor="#ff333333" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/no_bind" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="#fffb4e52" android:id="@+id/homeMac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_bind_title"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/homeAuthorityLayout" android:background="@color/colorBlack8" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingHorizontal="12dp" android:paddingVertical="5dp">
+            <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/ic_tip_red"/>
+            <TextView android:textSize="12sp" android:textColor="#ff333333" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/not_permission" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="#fffb4e52" android:id="@+id/homeAuthority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/obtain"/>
+        </LinearLayout>
+        <com.huayu.tzc.customview.CircularView android:layout_gravity="center" android:id="@+id/homeCirView" android:layout_width="200dp" android:layout_height="200dp" android:layout_marginTop="30dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/homeTargetLayout" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintHorizontal_weight="1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toLeftOf="@+id/homeQs" app:layout_constraintTop_toTopOf="0">
+                <TextView android:textSize="20sp" android:textColor="#ff3a8bff" android:id="@+id/homeTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60kg"/>
+                <TextView android:textSize="12sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/target_title"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/homeQs" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="@+id/homeTargetLayout" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+                <ImageView android:textSize="20sp" android:textColor="#ff3a8bff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qushi"/>
+                <TextView android:textSize="12sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/trend_title"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/homeTzlLayout" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@+id/homeTargetLayout" app:layout_constraintHorizontal_weight="1" app:layout_constraintLeft_toRightOf="@+id/homeQs" app:layout_constraintRight_toRightOf="0">
+                <TextView android:textSize="20sp" android:textColor="#ff3a8bff" android:id="@+id/homeTzl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18.0%"/>
+                <TextView android:textSize="12sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/target_tz"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="8dp"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="10dp" android:layout_marginRight="12dp">
+            <TextView android:textSize="14sp" android:textColor="#ff999999" android:id="@+id/homeTime" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+            <ImageView android:id="@+id/homeHistory" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_history"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/homeRecyclerview" android:background="@color/color_white" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

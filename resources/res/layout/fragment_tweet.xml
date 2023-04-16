@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="#ff000000" android:gravity="center" android:background="@color/color_white" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/community"/>
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@+id/tweet_smart" android:background="#f4f4f4" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.scwang.smart.refresh.header.ClassicsHeader android:layout_width="match_parent" android:layout_height="wrap_content" app:srlAccentColor="@color/colorBlack" app:srlPrimaryColor="@color/colorWhite"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/tweet_recyclerview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

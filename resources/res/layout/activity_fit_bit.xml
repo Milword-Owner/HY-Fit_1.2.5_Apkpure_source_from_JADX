@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#f4f4f4" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huayu.tzc.customview.MyHeaderView android:layout_width="match_parent" android:layout_height="wrap_content" app:header_title="@string/set_fitbit"/>
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:src="@drawable/ic_fitbit"/>
+    <LinearLayout android:gravity="center_vertical" android:background="@color/color_white" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="48dp">
+        <TextView android:textSize="15sp" android:textColor="#ff000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fit Bit" android:layout_weight="1"/>
+        <Switch android:id="@+id/fitSwitch" android:layout_width="wrap_content" android:layout_height="20dp" android:checked="false" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track" android:switchMinWidth="20dp"/>
+    </LinearLayout>
+    <TextView android:textSize="13sp" android:textColor="#ff999999" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/fitbit_tip"/>
+</LinearLayout>

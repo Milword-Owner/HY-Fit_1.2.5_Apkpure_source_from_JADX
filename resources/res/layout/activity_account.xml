@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/f4" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huayu.tzc.customview.MyHeaderView android:layout_width="match_parent" android:layout_height="wrap_content" app:header_title="@string/set_account" app:menu_text="@string/account_delete" app:menu_text_visibility="false"/>
+    <com.huayu.tzc.customview.MyLinearLayout android:id="@+id/accountMail" android:layout_width="match_parent" android:layout_height="50dp" app:linear_content="" app:linear_img="@drawable/ic_mail" app:linear_next="false" app:linear_text="@string/login_email"/>
+    <com.huayu.tzc.customview.MyLinearLayout android:id="@+id/accountPass" android:layout_width="match_parent" android:layout_height="50dp" app:linear_img="@drawable/ic_pass" app:linear_text="@string/account_password"/>
+    <Button android:textSize="14sp" android:textColor="#fffb4d51" android:id="@+id/accountBt" android:background="@color/color_white" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:text="@string/set_exit" style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>

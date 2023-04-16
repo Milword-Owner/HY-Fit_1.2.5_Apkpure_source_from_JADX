@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/remind_layout" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp">
+    <TextView android:textSize="30sp" android:textColor="#ff000000" android:id="@+id/remind_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="08:00"/>
+    <TextView android:textSize="12sp" android:textColor="#ff999999" android:id="@+id/remind_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/open_false" android:layout_below="@+id/remind_date"/>
+    <Switch android:id="@+id/remind_switch" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="20dp" android:checked="false" android:thumb="@drawable/switch_thumb" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:track="@drawable/switch_track" android:switchMinWidth="20dp"/>
+</RelativeLayout>

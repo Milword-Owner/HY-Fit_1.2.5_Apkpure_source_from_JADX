@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/default_bag" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="30dp">
+        <ImageView android:layout_gravity="right" android:id="@+id/stepCancel" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:src="@drawable/ic_cancel"/>
+        <com.huayu.tzc.customview.WrapContentViewPager android:id="@+id/stepViewPager" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="30dp">
+            <View android:id="@+id/step1" android:background="@drawable/oval_5" android:layout_width="7dp" android:layout_height="7dp"/>
+            <View android:id="@+id/step2" android:background="@drawable/oval_5_f" android:layout_width="7dp" android:layout_height="7dp" android:layout_marginLeft="7dp"/>
+            <View android:id="@+id/step3" android:background="@drawable/oval_5_f" android:layout_width="7dp" android:layout_height="7dp" android:layout_marginLeft="7dp"/>
+            <View android:id="@+id/step4" android:background="@drawable/oval_5_f" android:layout_width="7dp" android:layout_height="7dp" android:layout_marginLeft="7dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

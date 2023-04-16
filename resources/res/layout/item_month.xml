@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="50dp">
+    <TextView android:textSize="15dp" android:textColor="#ff6600" android:gravity="center" android:id="@+id/tv_month" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

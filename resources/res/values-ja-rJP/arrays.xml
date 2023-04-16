@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="base_metabolic">
+        <item>標準ではありません</item>
+        <item>標準まで</item>
+    </array>
+    <array name="details_body">
+        <item>体重</item>
+        <item>BMI</item>
+        <item>体脂肪率</item>
+        <item>体型</item>
+        <item>除脂肪体重</item>
+        <item>皮下脂肪率</item>
+        <item>内臓脂肪</item>
+        <item>体水分率</item>
+        <item>骨格筋率</item>
+        <item>筋肉量</item>
+        <item>骨量</item>
+        <item>タンパク質率</item>
+        <item>基礎代謝率</item>
+        <item>体の年齢</item>
+        <item>ボディスコア</item>
+    </array>
+    <array name="details_body_description">
+        <item>人の健康の反応と測定の重要な兆候の1つ。</item>
+        <item>ボディ・マス・インデックス</item>
+        <item>体組成における脂肪組織の割合。</item>
+        <item>人体の形の一般的な説明と評価</item>
+        <item>筋肉は脂肪を除く他の体の構成要素の重量の主要部分です</item>
+        <item>皮膚の下に蓄えられた脂肪組織です。</item>
+        <item>皮下脂肪とは異なり、人体の臓器を取り囲み、主に腹腔内に存在する体脂肪の一種です。</item>
+        <item>人体に含まれる水分には、血液、リンパ液、細胞外液などが含まれます。</item>
+        <item>人体は複数の筋肉で構成されています。</item>
+        <item>骨格筋、心筋、平滑筋を含む全身の筋肉の重量。</item>
+        <item>単位体積あたりの骨組織[骨ミネラル（カルシウム、リンなど）および骨基質（コラーゲン、タンパク質、無機塩など）]の含有量。</item>
+        <item>生命の物質的基盤は、細胞を構成する基本的な有機物です。</item>
+        <item>人体が不活性状態にあるときに生命を維持するために消費しなければならないエネルギー。</item>
+        <item>体の年齢は体調を評価するための指標です。</item>
+        <item>包括的な体重、体脂肪率、筋肉量、体水分、骨量、内臓脂肪、タンパク質率、および基礎代謝が組み合わされて、包括的な体スコアが得られます。</item>
+    </array>
+    <array name="fat_rate_status">
+        <item>やや低い</item>
+        <item>健康</item>
+        <item>アラート</item>
+        <item>軽度肥満</item>
+        <item>重度肥満</item>
+    </array>
+    <array name="fat_status">
+        <item>低</item>
+        <item>標準</item>
+        <item>高い</item>
+        <item>より高い</item>
+    </array>
+    <array name="find">
+        <item>ツイート</item>
+        <item>メッセージ</item>
+    </array>
+    <array name="have_red_status">
+        <item>やや低い</item>
+        <item>標準</item>
+        <item>やや高い</item>
+    </array>
+    <array name="home_weight_describe">
+        <item>やせぎす</item>
+        <item>標準</item>
+        <item>太りぎみ</item>
+        <item>肥満</item>
+    </array>
+    <array name="language">
+        <item>简体中文</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>italiano</item>
+        <item>français</item>
+        <item>Deutsche</item>
+        <item>日本語</item>
+        <item>システムをフォロー</item>
+    </array>
+    <array name="no_red_status">
+        <item>やや低い</item>
+        <item>標準</item>
+        <item>適切</item>
+    </array>
+    <array name="obesity_level">
+        <item>維持する</item>
+        <item>グレード I</item>
+        <item>グレード II</item>
+        <item>グレード III</item>
+    </array>
+    <array name="score_status">
+        <item>やや低い</item>
+        <item>優秀</item>
+    </array>
+    <array name="shape">
+        <item>やせタイプ</item>
+        <item>やせた筋肉型</item>
+        <item>標準型</item>
+        <item>隠れ肥満型</item>
+        <item>太りすぎ</item>
+    </array>
+    <array name="target_weight">
+        <item>やや低い</item>
+        <item>標準</item>
+        <item>やや高い</item>
+    </array>
+    <array name="trend_description">
+        <item>人の健康の反応と測定の重要な兆候の1つ。</item>
+        <item>ボディ・マス・インデックス</item>
+        <item>体組成における脂肪組織の割合。</item>
+        <item>皮膚の下に蓄えられた脂肪組織です。</item>
+        <item>皮下脂肪とは異なり、人体の臓器を取り囲み、主に腹腔内に存在する体脂肪の一種です。</item>
+        <item>人体に含まれる水分には、血液、リンパ液、細胞外液などが含まれます。</item>
+        <item>人体は複数の筋肉で構成されています。</item>
+        <item>骨格筋、心筋、平滑筋を含む全身の筋肉の重量。</item>
+        <item>単位体積あたりの骨組織[骨ミネラル（カルシウム、リンなど）および骨基質（コラーゲン、タンパク質、無機塩など）]の含有量。</item>
+        <item>生命の物質的基盤は、細胞を構成する基本的な有機物です。</item>
+        <item>人体が不活性状態にあるときに生命を維持するために消費しなければならないエネルギー。</item>
+        <item>包括的な体重、体脂肪率、筋肉量、体水分、骨量、内臓脂肪、タンパク質率、および基礎代謝が組み合わされて、包括的な体スコアが得られます。</item>
+    </array>
+    <array name="trend_name">
+        <item>体重</item>
+        <item>BMI</item>
+        <item>体脂肪率</item>
+        <item>皮下脂肪率</item>
+        <item>内臓脂肪</item>
+        <item>体水分率</item>
+        <item>骨格筋率</item>
+        <item>筋肉量</item>
+        <item>骨量</item>
+        <item>タンパク質率</item>
+        <item>基礎代謝率</item>
+        <item>ボディスコア</item>
+    </array>
+    <array name="visceral_fat">
+        <item>標準</item>
+        <item>アラート</item>
+        <item>高い</item>
+        <item>より高い</item>
+    </array>
+    <array name="weight_status">
+        <item>下</item>
+        <item>低</item>
+        <item>標準</item>
+        <item>高い</item>
+        <item>より高い</item>
+    </array>
+</resources>

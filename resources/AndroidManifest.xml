@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="27" android:versionName="1.2.5" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.huayu.tzc" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <meta-data android:name="design_width_in_dp" android:value="375"/>
+    <meta-data android:name="design_height_in_dp" android:value="667"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/app_logo" android:name="com.huayu.tzc.utils.BaseApplication" android:allowBackup="true" android:supportsRtl="true" android:networkSecurityConfig="@xml/network_config" android:roundIcon="@mipmap/app_logo" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <activity android:name="com.huayu.tzc.p014ui.activity.ShareActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.ChoiceDateActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.TweetActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.TrendActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.TargetActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.MeasureActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.DeviceActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.history.HistoryInfoActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.history.HistoryActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.VipActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.FitWebActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.FitBitActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.GoogleFitActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.AboutActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.LanguageActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.RemindActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.UnitActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.ModifyPassActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.setting.AccountActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.UserInfoActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.StartActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huayu.tzc.p014ui.activity.GuideActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.login.BindLoginActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.login.BindActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.login.ForgetActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.WebActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.login.RegisteredActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.login.CodeActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.huayu.tzc.p014ui.activity.login.LoginActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.huayu.tzc.MainActivity" android:screenOrientation="portrait" android:configChanges="locale|keyboard|layoutDirection"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.huayu.tzc.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:name="com.huayu.tzc.p021im.JWebSocketClientService" android:enabled="true" android:exported="true"/>
+        <activity android:theme="@style/com_facebook_activity_theme" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fbconnect" android:host="cct.com.huayu.tzc"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.huayu.tzc.FacebookInitProvider"/>
+        <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/ActivityTranslucent" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/ActivityTranslucent" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:multiprocess="true" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:name="com.blankj.utilcode.util.UtilsFileProvider" android:exported="false" android:authorities="com.huayu.tzc.utilcode.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huayu.tzc.messenger"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.mob.guard.MobTranPullLockActivity">
+            <intent-filter>
+                <action android:name="com.mob.open.app"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zhihu.matisse.p035ui.MatisseActivity"/>
+        <activity android:name="com.zhihu.matisse.internal.p034ui.AlbumPreviewActivity"/>
+        <activity android:name="com.zhihu.matisse.internal.p034ui.SelectedPreviewActivity"/>
+        <provider android:name="p038me.jessyan.autosize.InitProvider" android:exported="false" android:multiprocess="true" android:authorities="com.huayu.tzc.autosize-init-provider"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.previewlibrary.GPreviewActivity"/>
+        <activity android:name="com.previewlibrary.GPVideoPlayerActivity"/>
+        <meta-data android:name="com.google.gms.fitness.sdk.version" android:value="20.0.0"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" android:visibleToInstantApps="true"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="com.mob.MobProvider" android:exported="false" android:multiprocess="true" android:authorities="com.huayu.tzc.com.mob.MobProvider"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="749994272206990"/>
+        <meta-data android:name="Mob-AppKey" android:value="2ffa27bba80a7"/>
+        <meta-data android:name="Mob-AppSecret" android:value="2415b6f77bcaf2ff75513321144658f1"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.mob.tools.MobUIShell" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fb1412473428822331"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.facebook.app.FacebookContentProvider749994272206990"/>
+        <provider android:name="p005cn.sharesdk.framework.utils.ShareSDKFileProvider" android:exported="false" android:authorities="com.huayu.tzc.cn.sharesdk.ShareSDKFileProvider" android:grantUriPermissions="true"/>
+        <service android:name="com.mob.guard.MobGuardUpService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mob.intent.MOB_GUARD_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.mob.guard.MobGuardCommonIdBCReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.mlive.id"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.mob.MobTranUpActivity">
+            <intent-filter>
+                <action android:name="com.mob.open.app"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+</manifest>
